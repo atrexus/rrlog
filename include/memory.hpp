@@ -40,9 +40,4 @@ namespace rrlog
     /// <param name="base">The base address</param>
     /// <returns>The allocation</returns>
     allocation_t get_allocation( const std::uintptr_t base );
-
-    /// <summary>
-    /// Gets all allocations that contain at least 10 pages of executable memory.
-    /// </summary>
-    std::vector< allocation_t > get_executable_allocations( );
 }  // namespace rrlog

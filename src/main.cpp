@@ -29,6 +29,8 @@ static nlohmann::ordered_json scan( const uintptr_t mod );
 /// </summary>
 static void entry( const std::uintptr_t mod )
 {
+    MessageBox( nullptr, "Loaded! Please wait a couple of seconds for scanning to complete.", "Success", MB_ICONINFORMATION | MB_OK );
+
     try
     {
         const auto obj = scan( mod );
@@ -92,8 +94,6 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
 {
     std::vector< nlohmann::ordered_json > result;
 
-    const auto& allocations = rrlog::get_executable_allocations( );
-
     MEMORY_BASIC_INFORMATION mbi{ };
     std::uintptr_t address = 0;
 
@@ -109,45 +109,47 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
         {
             auto allocation = rrlog::get_allocation( reinterpret_cast< std::uintptr_t >( mbi.AllocationBase ) );
 
-            if ( allocation.base <= mod && allocation.base + allocation.size > mod )
-                continue;
-
-            nlohmann::ordered_json data;
-
-            if ( allocation.module_path.empty( ) )
-                data[ "file" ] = nullptr;
-            else
-                data[ "file" ] = allocation.module_path;
-
-            data[ "start" ] = std::format( "{:#x}", allocation.base );
-            data[ "end" ] = std::format( "{:#x}", allocation.base + allocation.size );
-            data[ "size" ] = allocation.size;
-
-            const auto& match = rrlog::rbx::scanner::match_memory( { allocation.data.get( ), allocation.size } );
-
-            data[ "status" ] = rrlog::rbx::scanner::status_to_string( match.status );
-            data[ "statusCode" ] = match.status;
-
-            std::vector< nlohmann::ordered_json > matched_rulesets;
-
-            for ( std::size_t i = 0; i + 1 < match.ruleset_ids.size( ); i += 2 )
+            if ( allocation.base > mod || allocation.base + allocation.size < mod )
             {
-                nlohmann::ordered_json obj;
+                nlohmann::ordered_json data;
 
-                const auto rid = static_cast< std::uint32_t >( match.ruleset_ids[ i ] );
+                if ( allocation.module_path.empty( ) )
+                    data[ "file" ] = nullptr;
+                else
+                    data[ "file" ] = allocation.module_path;
 
-                obj[ "id" ] = rid;
+                data[ "start" ] = std::format( "{:#x}", allocation.base );
+                data[ "end" ] = std::format( "{:#x}", allocation.base + allocation.size );
+                data[ "size" ] = allocation.size;
 
-                const auto s = rrlog::rbx::scanner::ruleset_to_string( rid );
+                const auto& match = rrlog::rbx::scanner::match_memory( { allocation.data.get( ), allocation.size } );
 
-                obj[ "name" ] = s;
+                data[ "status" ] = rrlog::rbx::scanner::status_to_string( match.status );
+                data[ "statusCode" ] = match.status;
 
-                matched_rulesets.push_back( obj );
+                std::vector< nlohmann::ordered_json > matched_rulesets;
+
+                for ( std::size_t i = 0; i + 1 < match.ruleset_ids.size( ); i += 2 )
+                {
+                    nlohmann::ordered_json obj;
+
+                    const auto rid = static_cast< std::uint32_t >( match.ruleset_ids[ i ] );
+
+                    obj[ "id" ] = rid;
+
+                    const auto s = rrlog::rbx::scanner::ruleset_to_string( rid );
+
+                    obj[ "name" ] = s;
+
+                    matched_rulesets.push_back( obj );
+                }
+
+                data[ "matched" ] = matched_rulesets;
+
+                result.push_back( data );
             }
 
-            data[ "matched" ] = matched_rulesets;
-
-            result.push_back( data );
+            address = allocation.base + allocation.size;
         }
         else
             address = ( std::uintptr_t )mbi.BaseAddress + mbi.RegionSize;
