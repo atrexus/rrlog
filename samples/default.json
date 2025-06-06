@@ -1,0 +1,3028 @@
+[
+    {
+        "file": null,
+        "start": "0x1ca19b70000",
+        "end": "0x1ca19bf9000",
+        "size": 561152,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": null,
+        "start": "0x1ca19c00000",
+        "end": "0x1ca19c1e000",
+        "size": 122880,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\max\\Downloads\\WEAO-LIVE-WindowsPlayer-version-e1da58b32b1c4d64\\RobloxPlayerBeta.exe",
+        "start": "0x7ff62bea0000",
+        "end": "0x7ff6334f8000",
+        "size": 124092416,
+        "status": "SCAN_LIKELY_MALICIOUS",
+        "statusCode": 4,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 12,
+                "name": "s-rbxkey"
+            },
+            {
+                "id": 14,
+                "name": "r-key"
+            },
+            {
+                "id": 41,
+                "name": "l-key"
+            },
+            {
+                "id": 30,
+                "name": "l-func"
+            },
+            {
+                "id": 17,
+                "name": "f-lua"
+            },
+            {
+                "id": 38,
+                "name": "r-url"
+            },
+            {
+                "id": 55,
+                "name": "f-rbx"
+            },
+            {
+                "id": 47,
+                "name": "s-ename"
+            },
+            {
+                "id": 37,
+                "name": "eval_possible_exploit"
+            },
+            {
+                "id": 31,
+                "name": "s-urlsocial"
+            },
+            {
+                "id": 59,
+                "name": "s-pipe"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\max\\Downloads\\WEAO-LIVE-WindowsPlayer-version-e1da58b32b1c4d64\\RobloxPlayerBeta.dll",
+        "start": "0x7ffb0d860000",
+        "end": "0x7ffb1a6d0000",
+        "size": 216465408,
+        "status": "SCAN_BAD_CERT",
+        "statusCode": 1,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 45,
+                "name": "w-hyp"
+            },
+            {
+                "id": 16,
+                "name": "eval_legitimate"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\OPENGL32.dll",
+        "start": "0x7ffb1a6d0000",
+        "end": "0x7ffb1a7dc000",
+        "size": 1097728,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\verifier.dll",
+        "start": "0x7ffb24da0000",
+        "end": "0x7ffb24e12000",
+        "size": 466944,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": null,
+        "start": "0x7ffb319b0000",
+        "end": "0x7ffb319c0000",
+        "size": 65536,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 63,
+                "name": "m-notpe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvwgf2umx.dll",
+        "start": "0x7ffb36d20000",
+        "end": "0x7ffb3ae3c000",
+        "size": 68272128,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 59,
+                "name": "s-pipe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Windows\\System32\\dinput8.dll",
+        "start": "0x7ffb3fab0000",
+        "end": "0x7ffb3fafb000",
+        "size": 307200,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\GLU32.dll",
+        "start": "0x7ffb44330000",
+        "end": "0x7ffb4435d000",
+        "size": 184320,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Windows\\System32\\devenum.dll",
+        "start": "0x7ffb50130000",
+        "end": "0x7ffb50151000",
+        "size": 135168,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\windows.staterepositoryclient.dll",
+        "start": "0x7ffb52f10000",
+        "end": "0x7ffb52f56000",
+        "size": 286720,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\nlansp_c.dll",
+        "start": "0x7ffb53f40000",
+        "end": "0x7ffb53f70000",
+        "size": 196608,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\winrnr.dll",
+        "start": "0x7ffb53f80000",
+        "end": "0x7ffb53f92000",
+        "size": 73728,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\napinsp.dll",
+        "start": "0x7ffb53fa0000",
+        "end": "0x7ffb53fb8000",
+        "size": 98304,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\Display.NvContainer\\NvMessageBus.dll",
+        "start": "0x7ffb53fc0000",
+        "end": "0x7ffb54318000",
+        "size": 3506176,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 59,
+                "name": "s-pipe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\iertutil.dll",
+        "start": "0x7ffb55a50000",
+        "end": "0x7ffb55d1a000",
+        "size": 2924544,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 31,
+                "name": "s-urlsocial"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\urlmon.dll",
+        "start": "0x7ffb55d20000",
+        "end": "0x7ffb55efc000",
+        "size": 1949696,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\WININET.dll",
+        "start": "0x7ffb570b0000",
+        "end": "0x7ffb57333000",
+        "size": 2633728,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 47,
+                "name": "s-ename"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvppex.dll",
+        "start": "0x7ffb59d30000",
+        "end": "0x7ffb59e85000",
+        "size": 1396736,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\textinputframework.dll",
+        "start": "0x7ffb5b070000",
+        "end": "0x7ffb5b1bd000",
+        "size": 1363968,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\windows.staterepositorycore.dll",
+        "start": "0x7ffb5b270000",
+        "end": "0x7ffb5b28a000",
+        "size": 106496,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\CompPkgSup.DLL",
+        "start": "0x7ffb5ccc0000",
+        "end": "0x7ffb5ccf4000",
+        "size": 212992,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+        "start": "0x7ffb5dab0000",
+        "end": "0x7ffb5dae6000",
+        "size": 221184,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\d3d9.dll",
+        "start": "0x7ffb5dcd0000",
+        "end": "0x7ffb5de85000",
+        "size": 1789952,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 59,
+                "name": "s-pipe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvgpucomp64.dll",
+        "start": "0x7ffb5fcb0000",
+        "end": "0x7ffb61c9e000",
+        "size": 33480704,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\twinapi.appcore.dll",
+        "start": "0x7ffb62850000",
+        "end": "0x7ffb62a8c000",
+        "size": 2342912,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\inputhost.dll",
+        "start": "0x7ffb63760000",
+        "end": "0x7ffb63941000",
+        "size": 1970176,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\MSACM32.dll",
+        "start": "0x7ffb64ad0000",
+        "end": "0x7ffb64af1000",
+        "size": 135168,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\CoreUIComponents.dll",
+        "start": "0x7ffb64dc0000",
+        "end": "0x7ffb650a3000",
+        "size": 3026944,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+        "start": "0x7ffb655c0000",
+        "end": "0x7ffb65801000",
+        "size": 2363392,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\srvcli.dll",
+        "start": "0x7ffb65e20000",
+        "end": "0x7ffb65e49000",
+        "size": 167936,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+        "start": "0x7ffb65e50000",
+        "end": "0x7ffb65ed6000",
+        "size": 548864,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\drvstore.dll",
+        "start": "0x7ffb662c0000",
+        "end": "0x7ffb6643c000",
+        "size": 1556480,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\cryptnet.dll",
+        "start": "0x7ffb664e0000",
+        "end": "0x7ffb6651b000",
+        "size": 241664,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+        "start": "0x7ffb66e40000",
+        "end": "0x7ffb66e65000",
+        "size": 151552,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nv_dispig.inf_amd64_0afec3f2050014a0\\nvldumdx.dll",
+        "start": "0x7ffb66e90000",
+        "end": "0x7ffb66f51000",
+        "size": 790528,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Users\\max\\Downloads\\WEAO-LIVE-WindowsPlayer-version-e1da58b32b1c4d64\\WebView2Loader.dll",
+        "start": "0x7ffb67000000",
+        "end": "0x7ffb6702e000",
+        "size": 188416,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+        "start": "0x7ffb67580000",
+        "end": "0x7ffb6759f000",
+        "size": 126976,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.1882_none_87f34cef7a28f535\\COMCTL32.dll",
+        "start": "0x7ffb67610000",
+        "end": "0x7ffb676c4000",
+        "size": 737280,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\wshbth.dll",
+        "start": "0x7ffb676d0000",
+        "end": "0x7ffb676f0000",
+        "size": 131072,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\RTWorkQ.DLL",
+        "start": "0x7ffb67c10000",
+        "end": "0x7ffb67c54000",
+        "size": 278528,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\MFPlat.DLL",
+        "start": "0x7ffb67f90000",
+        "end": "0x7ffb681a9000",
+        "size": 2199552,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\Microsoft.Internal.WarpPal.dll",
+        "start": "0x7ffb69650000",
+        "end": "0x7ffb69669000",
+        "size": 102400,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\WindowsCodecs.dll",
+        "start": "0x7ffb69b00000",
+        "end": "0x7ffb69d3a000",
+        "size": 2334720,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\d3d11.dll",
+        "start": "0x7ffb6a600000",
+        "end": "0x7ffb6a866000",
+        "size": 2514944,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dcomp.dll",
+        "start": "0x7ffb6a870000",
+        "end": "0x7ffb6aa96000",
+        "size": 2252800,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\CoreMessaging.dll",
+        "start": "0x7ffb6b0c0000",
+        "end": "0x7ffb6b1e6000",
+        "size": 1204224,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\wtsapi32.dll",
+        "start": "0x7ffb6bf50000",
+        "end": "0x7ffb6bf66000",
+        "size": 90112,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\uxtheme.dll",
+        "start": "0x7ffb6bfc0000",
+        "end": "0x7ffb6c06f000",
+        "size": 716800,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dxcore.dll",
+        "start": "0x7ffb6c200000",
+        "end": "0x7ffb6c247000",
+        "size": 290816,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\directxdatabasehelper.dll",
+        "start": "0x7ffb6c270000",
+        "end": "0x7ffb6c2d0000",
+        "size": 393216,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dxgi.dll",
+        "start": "0x7ffb6c2e0000",
+        "end": "0x7ffb6c413000",
+        "size": 1257472,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\dwmapi.dll",
+        "start": "0x7ffb6c440000",
+        "end": "0x7ffb6c476000",
+        "size": 221184,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\windows.storage.dll",
+        "start": "0x7ffb6cae0000",
+        "end": "0x7ffb6d336000",
+        "size": 8740864,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+        "start": "0x7ffb6d630000",
+        "end": "0x7ffb6d663000",
+        "size": 208896,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+        "start": "0x7ffb6d720000",
+        "end": "0x7ffb6d847000",
+        "size": 1208320,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\rsaenh.dll",
+        "start": "0x7ffb6db70000",
+        "end": "0x7ffb6dbaa000",
+        "size": 237568,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+        "start": "0x7ffb6dc10000",
+        "end": "0x7ffb6dc2a000",
+        "size": 106496,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\ntmarta.dll",
+        "start": "0x7ffb6dd30000",
+        "end": "0x7ffb6dd65000",
+        "size": 217088,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\SSPICLI.dll",
+        "start": "0x7ffb6deb0000",
+        "end": "0x7ffb6def8000",
+        "size": 294912,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\system32\\mswsock.dll",
+        "start": "0x7ffb6e160000",
+        "end": "0x7ffb6e1ca000",
+        "size": 434176,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\GPAPI.dll",
+        "start": "0x7ffb6e1d0000",
+        "end": "0x7ffb6e1f7000",
+        "size": 159744,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\wldp.dll",
+        "start": "0x7ffb6e430000",
+        "end": "0x7ffb6e48d000",
+        "size": 380928,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\CRYPTSP.dll",
+        "start": "0x7ffb6e520000",
+        "end": "0x7ffb6e53c000",
+        "size": 114688,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\winsta.dll",
+        "start": "0x7ffb6e570000",
+        "end": "0x7ffb6e5d7000",
+        "size": 421888,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\MSASN1.dll",
+        "start": "0x7ffb6e5f0000",
+        "end": "0x7ffb6e603000",
+        "size": 77824,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+        "start": "0x7ffb6e6b0000",
+        "end": "0x7ffb6e6c4000",
+        "size": 81920,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+        "start": "0x7ffb6e6d0000",
+        "end": "0x7ffb6e72e000",
+        "size": 385024,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\NTASN1.dll",
+        "start": "0x7ffb6e740000",
+        "end": "0x7ffb6e77f000",
+        "size": 258048,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\ncrypt.dll",
+        "start": "0x7ffb6e790000",
+        "end": "0x7ffb6e7c0000",
+        "size": 196608,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\DEVOBJ.dll",
+        "start": "0x7ffb6ead0000",
+        "end": "0x7ffb6eafd000",
+        "size": 184320,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\Windows\\System32\\CFGMGR32.dll",
+        "start": "0x7ffb6eb00000",
+        "end": "0x7ffb6eb57000",
+        "size": 356352,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+        "start": "0x7ffb6ed70000",
+        "end": "0x7ffb6ed96000",
+        "size": 155648,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\profapi.dll",
+        "start": "0x7ffb6eda0000",
+        "end": "0x7ffb6edcf000",
+        "size": 192512,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\win32u.dll",
+        "start": "0x7ffb6ee90000",
+        "end": "0x7ffb6eeb7000",
+        "size": 159744,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\WINTRUST.dll",
+        "start": "0x7ffb6eec0000",
+        "end": "0x7ffb6ef40000",
+        "size": 524288,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+        "start": "0x7ffb6ef50000",
+        "end": "0x7ffb6efe9000",
+        "size": 626688,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\gdi32full.dll",
+        "start": "0x7ffb6eff0000",
+        "end": "0x7ffb6f122000",
+        "size": 1253376,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 47,
+                "name": "s-ename"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\wintypes.dll",
+        "start": "0x7ffb6f130000",
+        "end": "0x7ffb6f2a4000",
+        "size": 1523712,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\msvcp_win.dll",
+        "start": "0x7ffb6f2b0000",
+        "end": "0x7ffb6f353000",
+        "size": 667648,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+        "start": "0x7ffb6f360000",
+        "end": "0x7ffb6f72c000",
+        "size": 3981312,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 59,
+                "name": "s-pipe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\ucrtbase.dll",
+        "start": "0x7ffb6f730000",
+        "end": "0x7ffb6f87b000",
+        "size": 1355776,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\CRYPT32.dll",
+        "start": "0x7ffb6f880000",
+        "end": "0x7ffb6f9f7000",
+        "size": 1536000,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\sechost.dll",
+        "start": "0x7ffb6fac0000",
+        "end": "0x7ffb6fb66000",
+        "size": 679936,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\SHLWAPI.dll",
+        "start": "0x7ffb6fb70000",
+        "end": "0x7ffb6fbd9000",
+        "size": 430080,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\WS2_32.dll",
+        "start": "0x7ffb6fbe0000",
+        "end": "0x7ffb6fc54000",
+        "size": 475136,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\MSCTF.dll",
+        "start": "0x7ffb6fc60000",
+        "end": "0x7ffb6fdbf000",
+        "size": 1437696,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\SETUPAPI.dll",
+        "start": "0x7ffb6fe40000",
+        "end": "0x7ffb702c6000",
+        "size": 4743168,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\ole32.dll",
+        "start": "0x7ffb704b0000",
+        "end": "0x7ffb7064f000",
+        "size": 1699840,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\imagehlp.dll",
+        "start": "0x7ffb70690000",
+        "end": "0x7ffb706b0000",
+        "size": 131072,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\advapi32.dll",
+        "start": "0x7ffb706c0000",
+        "end": "0x7ffb70772000",
+        "size": 729088,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\clbcatq.dll",
+        "start": "0x7ffb70800000",
+        "end": "0x7ffb708a8000",
+        "size": 688128,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\RPCRT4.dll",
+        "start": "0x7ffb708b0000",
+        "end": "0x7ffb709c6000",
+        "size": 1138688,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+        "start": "0x7ffb709e0000",
+        "end": "0x7ffb70aa9000",
+        "size": 823296,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\shcore.dll",
+        "start": "0x7ffb70ab0000",
+        "end": "0x7ffb70b9f000",
+        "size": 978944,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\combase.dll",
+        "start": "0x7ffb70bb0000",
+        "end": "0x7ffb70f34000",
+        "size": 3686400,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\COMDLG32.dll",
+        "start": "0x7ffb70f40000",
+        "end": "0x7ffb71034000",
+        "size": 999424,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\GDI32.dll",
+        "start": "0x7ffb71040000",
+        "end": "0x7ffb7106b000",
+        "size": 176128,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\IMM32.DLL",
+        "start": "0x7ffb71070000",
+        "end": "0x7ffb710a0000",
+        "size": 196608,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 39,
+                "name": "m-mspe"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\msvcrt.dll",
+        "start": "0x7ffb710b0000",
+        "end": "0x7ffb71159000",
+        "size": 692224,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\SHELL32.dll",
+        "start": "0x7ffb71160000",
+        "end": "0x7ffb7188d000",
+        "size": 7524352,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 7,
+                "name": "m-tfuture"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\USER32.dll",
+        "start": "0x7ffb71980000",
+        "end": "0x7ffb71b4a000",
+        "size": 1875968,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+        "start": "0x7ffb71bd0000",
+        "end": "0x7ffb71cb0000",
+        "size": 917504,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    },
+    {
+        "file": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+        "start": "0x7ffb71d00000",
+        "end": "0x7ffb71f66000",
+        "size": 2514944,
+        "status": "SCAN_NEUTRAL",
+        "statusCode": 2,
+        "matched": [
+            {
+                "id": 4,
+                "name": "m-normal"
+            },
+            {
+                "id": 8,
+                "name": "m-pe"
+            },
+            {
+                "id": 15,
+                "name": "s-apivm"
+            },
+            {
+                "id": 19,
+                "name": "m-told"
+            },
+            {
+                "id": 46,
+                "name": "eval_neutral"
+            }
+        ]
+    }
+]
