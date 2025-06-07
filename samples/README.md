@@ -1,5 +1,5 @@
 # Samples
-This directory contains a collection of memory snapshots taken by `rrlog` with various different malicious exploits lodaded. The name of each JSON 
+This directory contains a collection of memory snapshots taken by `rrlog` with various different malicious exploits loaded. The name of each JSON 
 file corresponds to the name of the exploit tested. The [default.json](./samples/default.json) file contains a shapshot with no malicious software injected.
 
 ### Contributing
