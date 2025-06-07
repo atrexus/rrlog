@@ -113,9 +113,7 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
             {
                 nlohmann::ordered_json data;
 
-                if ( allocation.module_path.empty( ) )
-                    data[ "file" ] = nullptr;
-                else
+                if ( !allocation.module_path.empty( ) )
                     data[ "file" ] = allocation.module_path;
 
                 data[ "start" ] = std::format( "{:#x}", allocation.base );
