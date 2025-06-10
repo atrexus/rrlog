@@ -1,17 +1,42 @@
 {
     "isDetected": true,
     "allocBadCertCount": 8,
-    "allocNeutralCount": 138,
-    "allocSuspiciousCount": 1,
+    "allocNeutralCount": 139,
+    "allocSuspiciousCount": 0,
     "allocLikelyMaliciousCount": 0,
-    "allocMaliciousCount": 0,
+    "allocMaliciousCount": 1,
     "snapshot": [
         {
-            "start": "0x162560e0000",
-            "end": "0x162566c1000",
-            "size": 6164480,
-            "status": "SCAN_SUSPICIOUS",
-            "statusCode": 3,
+            "start": "0x2a4ae790000",
+            "end": "0x2a4ae7ae000",
+            "size": 122880,
+            "status": "SCAN_NEUTRAL",
+            "statusCode": 2,
+            "matched": [
+                {
+                    "id": 4,
+                    "name": "m-normal"
+                },
+                {
+                    "id": 7,
+                    "name": "m-tfuture"
+                },
+                {
+                    "id": 8,
+                    "name": "m-pe"
+                },
+                {
+                    "id": 46,
+                    "name": "eval_neutral"
+                }
+            ]
+        },
+        {
+            "start": "0x2a4cfa50000",
+            "end": "0x2a4d0b2c000",
+            "size": 17678336,
+            "status": "SCAN_MALICIOUS",
+            "statusCode": 5,
             "matched": [
                 {
                     "id": 54,
@@ -30,10 +55,6 @@
                     "name": "m-pe"
                 },
                 {
-                    "id": 12,
-                    "name": "s-rbxkey"
-                },
-                {
                     "id": 41,
                     "name": "l-key"
                 },
@@ -46,12 +67,16 @@
                     "name": "f-lua"
                 },
                 {
-                    "id": 61,
-                    "name": "s-estrings"
+                    "id": 33,
+                    "name": "e-sirhurt"
                 },
                 {
-                    "id": 26,
-                    "name": "eval_suspicious"
+                    "id": 21,
+                    "name": "eval_exploit"
+                },
+                {
+                    "id": 61,
+                    "name": "s-estrings"
                 },
                 {
                     "id": 35,
@@ -125,8 +150,8 @@
         },
         {
             "file": "C:\\WINDOWS\\SYSTEM32\\verifier.dll",
-            "start": "0x7ff9a0070000",
-            "end": "0x7ff9a00e2000",
+            "start": "0x7ff9a6850000",
+            "end": "0x7ff9a68c2000",
             "size": 466944,
             "status": "SCAN_NEUTRAL",
             "statusCode": 2,
@@ -206,7 +231,7 @@
             ]
         },
         {
-            "file": "C:\\WINDOWS\\SYSTEM32\\MSVCP140.dll",
+            "file": "C:\\Windows\\System32\\msvcp140.dll",
             "start": "0x7ff9ce650000",
             "end": "0x7ff9ce6dd000",
             "size": 577536,
@@ -284,66 +309,6 @@
                 {
                     "id": 39,
                     "name": "m-mspe"
-                },
-                {
-                    "id": 46,
-                    "name": "eval_neutral"
-                }
-            ]
-        },
-        {
-            "file": "C:\\Users\\EXECUTE\\AppData\\Local\\Bloxstrap\\Versions\\version-e1da58b32b1c4d64\\WebView2Loader.dll",
-            "start": "0x7ff9d3740000",
-            "end": "0x7ff9d376e000",
-            "size": 188416,
-            "status": "SCAN_NEUTRAL",
-            "statusCode": 2,
-            "matched": [
-                {
-                    "id": 4,
-                    "name": "m-normal"
-                },
-                {
-                    "id": 8,
-                    "name": "m-pe"
-                },
-                {
-                    "id": 15,
-                    "name": "s-apivm"
-                },
-                {
-                    "id": 19,
-                    "name": "m-told"
-                },
-                {
-                    "id": 46,
-                    "name": "eval_neutral"
-                }
-            ]
-        },
-        {
-            "file": "C:\\Windows\\System32\\dinput8.dll",
-            "start": "0x7ff9d3d70000",
-            "end": "0x7ff9d3dbb000",
-            "size": 307200,
-            "status": "SCAN_NEUTRAL",
-            "statusCode": 2,
-            "matched": [
-                {
-                    "id": 4,
-                    "name": "m-normal"
-                },
-                {
-                    "id": 8,
-                    "name": "m-pe"
-                },
-                {
-                    "id": 15,
-                    "name": "s-apivm"
-                },
-                {
-                    "id": 19,
-                    "name": "m-told"
                 },
                 {
                     "id": 46,
@@ -443,6 +408,66 @@
                 {
                     "id": 8,
                     "name": "m-pe"
+                },
+                {
+                    "id": 19,
+                    "name": "m-told"
+                },
+                {
+                    "id": 46,
+                    "name": "eval_neutral"
+                }
+            ]
+        },
+        {
+            "file": "C:\\Users\\EXECUTE\\AppData\\Local\\Bloxstrap\\Versions\\version-e1da58b32b1c4d64\\WebView2Loader.dll",
+            "start": "0x7ffa18730000",
+            "end": "0x7ffa1875e000",
+            "size": 188416,
+            "status": "SCAN_NEUTRAL",
+            "statusCode": 2,
+            "matched": [
+                {
+                    "id": 4,
+                    "name": "m-normal"
+                },
+                {
+                    "id": 8,
+                    "name": "m-pe"
+                },
+                {
+                    "id": 15,
+                    "name": "s-apivm"
+                },
+                {
+                    "id": 19,
+                    "name": "m-told"
+                },
+                {
+                    "id": 46,
+                    "name": "eval_neutral"
+                }
+            ]
+        },
+        {
+            "file": "C:\\Windows\\System32\\dinput8.dll",
+            "start": "0x7ffa1c9d0000",
+            "end": "0x7ffa1ca1b000",
+            "size": 307200,
+            "status": "SCAN_NEUTRAL",
+            "statusCode": 2,
+            "matched": [
+                {
+                    "id": 4,
+                    "name": "m-normal"
+                },
+                {
+                    "id": 8,
+                    "name": "m-pe"
+                },
+                {
+                    "id": 15,
+                    "name": "s-apivm"
                 },
                 {
                     "id": 19,
@@ -563,36 +588,6 @@
                 {
                     "id": 39,
                     "name": "m-mspe"
-                },
-                {
-                    "id": 46,
-                    "name": "eval_neutral"
-                }
-            ]
-        },
-        {
-            "file": "C:\\WINDOWS\\system32\\ncryptsslp.dll",
-            "start": "0x7ffa29730000",
-            "end": "0x7ffa2975d000",
-            "size": 184320,
-            "status": "SCAN_NEUTRAL",
-            "statusCode": 2,
-            "matched": [
-                {
-                    "id": 4,
-                    "name": "m-normal"
-                },
-                {
-                    "id": 7,
-                    "name": "m-tfuture"
-                },
-                {
-                    "id": 8,
-                    "name": "m-pe"
-                },
-                {
-                    "id": 15,
-                    "name": "s-apivm"
                 },
                 {
                     "id": 46,
@@ -1079,10 +1074,10 @@
             ]
         },
         {
-            "file": "C:\\WINDOWS\\SYSTEM32\\inputhost.dll",
-            "start": "0x7ffa3fbc0000",
-            "end": "0x7ffa3fda1000",
-            "size": 1970176,
+            "file": "C:\\Users\\EXECUTE\\AppData\\Local\\Bloxstrap\\Versions\\version-e1da58b32b1c4d64\\VCRUNTIME140.dll",
+            "start": "0x7ffa3fb50000",
+            "end": "0x7ffa3fb6b000",
+            "size": 110592,
             "status": "SCAN_NEUTRAL",
             "statusCode": 2,
             "matched": [
@@ -1105,10 +1100,10 @@
             ]
         },
         {
-            "file": "C:\\WINDOWS\\SYSTEM32\\VCRUNTIME140.dll",
-            "start": "0x7ffa41e10000",
-            "end": "0x7ffa41e2e000",
-            "size": 122880,
+            "file": "C:\\WINDOWS\\SYSTEM32\\inputhost.dll",
+            "start": "0x7ffa3fbc0000",
+            "end": "0x7ffa3fda1000",
+            "size": 1970176,
             "status": "SCAN_NEUTRAL",
             "statusCode": 2,
             "matched": [
@@ -1117,12 +1112,12 @@
                     "name": "m-normal"
                 },
                 {
-                    "id": 7,
-                    "name": "m-tfuture"
-                },
-                {
                     "id": 8,
                     "name": "m-pe"
+                },
+                {
+                    "id": 19,
+                    "name": "m-told"
                 },
                 {
                     "id": 46,
@@ -1761,36 +1756,6 @@
                 {
                     "id": 8,
                     "name": "m-pe"
-                },
-                {
-                    "id": 46,
-                    "name": "eval_neutral"
-                }
-            ]
-        },
-        {
-            "file": "C:\\WINDOWS\\system32\\schannel.DLL",
-            "start": "0x7ffa488b0000",
-            "end": "0x7ffa4897a000",
-            "size": 827392,
-            "status": "SCAN_NEUTRAL",
-            "statusCode": 2,
-            "matched": [
-                {
-                    "id": 4,
-                    "name": "m-normal"
-                },
-                {
-                    "id": 7,
-                    "name": "m-tfuture"
-                },
-                {
-                    "id": 8,
-                    "name": "m-pe"
-                },
-                {
-                    "id": 15,
-                    "name": "s-apivm"
                 },
                 {
                     "id": 46,
