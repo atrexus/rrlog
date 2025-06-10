@@ -46,4 +46,9 @@ namespace rrlog::rbx
 
         return "SCAN_UKNOWN";
     }
+
+    memory_scan_statistics_t scanner::statistics( ) noexcept
+    {
+        return *reinterpret_cast< memory_scan_statistics_t* >( offsets::get( )->global_scan_statistics( ) );
+    }
 }  // namespace rrlog::rbx

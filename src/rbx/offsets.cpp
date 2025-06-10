@@ -6,7 +6,7 @@ namespace rrlog::rbx
 {
     std::unique_ptr< offsets > offsets::_instance = nullptr;
 
-    offsets::offsets( const std::uintptr_t base ) noexcept : _base( base )
+    offsets::offsets( const std::uintptr_t base, const std::uintptr_t hyperion_base ) noexcept : _base( base ), _hyperion_base( hyperion_base )
     {
     }
 
@@ -14,7 +14,10 @@ namespace rrlog::rbx
     {
         if ( !_instance )
         {
-            _instance = std::unique_ptr< offsets >( new offsets( reinterpret_cast< std::uintptr_t >( GetModuleHandle( nullptr ) ) ) );
+            const auto base = reinterpret_cast< std::uintptr_t >( GetModuleHandle( nullptr ) );
+            const auto hyperion = reinterpret_cast< std::uintptr_t >( GetModuleHandle( "RobloxPlayerBeta.dll" ) );
+
+            _instance = std::unique_ptr< offsets >( new offsets( base, hyperion ) );
         }
 
         return _instance;

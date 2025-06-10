@@ -22,7 +22,7 @@ static std::string get_timestamp( );
 /// </summary>
 static std::filesystem::path get_file_path( );
 
-static nlohmann::ordered_json scan( const uintptr_t mod );
+static nlohmann::ordered_json scan( const std::vector< std::uintptr_t >& );
 
 /// <summary>
 /// The real entry point for the DLL.
@@ -33,7 +33,11 @@ static void entry( const std::uintptr_t mod )
 
     try
     {
-        const auto obj = scan( mod );
+        std::vector< std::uintptr_t > ignore_modules = { mod,
+                                                         reinterpret_cast< std::uintptr_t >( GetModuleHandle( "RobloxPlayerBeta.dll" ) ),
+                                                         reinterpret_cast< std::uintptr_t >( GetModuleHandle( nullptr ) ) };
+
+        const auto obj = scan( ignore_modules );
 
         const auto log_file_path = get_file_path( );
 
@@ -90,9 +94,9 @@ std::filesystem::path get_file_path( )
     return get_timestamp( ) + ".json";
 }
 
-nlohmann::ordered_json scan( const std::uintptr_t mod )
+nlohmann::ordered_json scan( const std::vector< std::uintptr_t >& ignore )
 {
-    std::vector< nlohmann::ordered_json > result;
+    std::vector< nlohmann::ordered_json > matches;
 
     MEMORY_BASIC_INFORMATION mbi{ };
     std::uintptr_t address = 0;
@@ -109,7 +113,9 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
         {
             auto allocation = rrlog::get_allocation( reinterpret_cast< std::uintptr_t >( mbi.AllocationBase ) );
 
-            if ( allocation.base > mod || allocation.base + allocation.size < mod )
+            auto it = std::find_if( ignore.begin( ), ignore.end( ), [ & ]( const std::uintptr_t& mod ) { return allocation.base == mod; } );
+
+            if ( it == ignore.end( ) )
             {
                 nlohmann::ordered_json data;
 
@@ -144,7 +150,7 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
 
                 data[ "matched" ] = matched_rulesets;
 
-                result.push_back( data );
+                matches.push_back( data );
             }
 
             address = allocation.base + allocation.size;
@@ -155,6 +161,18 @@ nlohmann::ordered_json scan( const std::uintptr_t mod )
         if ( address < ( std::uintptr_t )mbi.BaseAddress )
             break;
     }
+
+    nlohmann::ordered_json result;
+
+    const auto stats = rrlog::rbx::scanner::statistics( );
+
+    result[ "isDetected" ] = stats.alloc_suspicious_count != 0 || stats.alloc_likely_malicious_count != 0 || stats.alloc_malicious_count != 0;
+    result[ "allocBadCertCount" ] = stats.alloc_bad_cert_count;
+    result[ "allocNeutralCount" ] = stats.alloc_neutral_count;
+    result[ "allocSuspiciousCount" ] = stats.alloc_suspicious_count;
+    result[ "allocLikelyMaliciousCount" ] = stats.alloc_likely_malicious_count;
+    result[ "allocMaliciousCount" ] = stats.alloc_malicious_count;
+    result[ "snapshot" ] = matches;
 
     return result;
 }
