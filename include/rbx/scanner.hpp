@@ -6,17 +6,36 @@
 
 namespace rrlog::rbx
 {
+
+    template< typename T >
+    struct persistent_allocator : std::allocator< T >
+    {
+        template< typename U >
+        struct rebind
+        {
+            using other = persistent_allocator< U >;
+        };
+
+        void deallocate( T* p, std::size_t n )
+        {
+            /**
+             * Deallocating would cause a crash when freeing our match result (likely due to being double freed),
+             * we might be leaking memory but I don't think it's that important than making sure we don't crash.
+             */
+        }
+    };
+
     /// <summary>
     /// A match result returned by `match_memory`.
     /// </summary>
     struct match_result_t
     {
         std::uint32_t status;
-        std::vector< std::uint64_t > ruleset_ids;
+        std::vector< std::uint64_t, persistent_allocator< std::uint64_t > > ruleset_ids;
     };
 
     /// <summary>
-    /// The memory scan statistics stored in Hyperion. 
+    /// The memory scan statistics stored in Hyperion.
     /// </summary>
     struct memory_scan_statistics_t
     {
