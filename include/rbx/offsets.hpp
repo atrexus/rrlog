@@ -18,12 +18,12 @@ namespace rrlog::rbx
         const std::uintptr_t _hyperion_base;
 
         // Offsets in the Roblox client
-        static constexpr std::uintptr_t _yr_scanner_ctx = 0x6725CE8;
-        static constexpr std::uintptr_t _scanner_match_memory = 0x29FEAE0;
-        static constexpr std::uintptr_t _scanner_get_ruleset_string = 0x29FF220;
+        static constexpr std::uintptr_t _yr_scanner_ctx = 0x675A4B8;
+        static constexpr std::uintptr_t _scanner_match_memory = 0x2862BE0;
+        static constexpr std::uintptr_t _scanner_get_ruleset_string = 0x2863320;
 
         // Offsets in Hyperion
-        static constexpr std::uintptr_t _global_scan_statistics = 0x2d7530;
+        static constexpr std::uintptr_t _global_scan_statistics = 0x2D64BC;
 
        public:
         /// <summary>
